@@ -3,9 +3,10 @@ São necessários alguns requisitos para execução:
 
 1- Python instalado
 
-2- Biblioteca Pandas
+2- Bibliotecas
 ```bash
-pip install pandas
+pip install pandas openpyxl openai argparse
+
 ```
 3- Chave API que pode ser criada em: https://platform.openai.com/account/api-keys
 
