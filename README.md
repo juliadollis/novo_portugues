@@ -1,5 +1,7 @@
 # new_portugues
 
-#instalação
-Use: 
-```git clone
+``
+
+python translate.py --input dev.xlsx --output dev_att.xlsx --api_key CHAVEAPI --sheet Sheet1 --column transcript
+``
+
