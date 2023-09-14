@@ -1,5 +1,6 @@
 # new_portugues
 São necessários alguns requisitos para execução:
+
 1- Python instalado
 
 2- Biblioteca Pandas
