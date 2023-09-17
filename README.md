@@ -1,4 +1,4 @@
-# new_portugues
+# novo_portugues
 São necessários alguns requisitos para execução:
 
 1- Python instalado
