@@ -20,4 +20,4 @@ Nomes das colunas do nosso dataset: transcript e transcript_wav2vec
 
 Nomes dos nossos arquivos: test, train e dev (os arquivos originalmente estao em csv mas devido a problemas no encoding, estamos usando xlsx)
 
-Nome original da plhanilha: Sheet1 (obs.: se ocorrer erro tente Plhanilha1)
+Nome original da plhanilha: Sheet1 (obs.: se ocorrer erro tente Planilha1)
