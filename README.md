@@ -21,4 +21,4 @@ Nomes dos nossos arquivos: test, train e dev (os arquivos originalmente estao em
 
 Nome original da plhanilha: Sheet1 (obs.: se ocorrer erro tente Planilha1)
 
-obs.: o sleep pode ser alterado de acordo com as limitações da API
+obs.: o sleep pode ser alterado diretamente no código de acordo com as limitações da API
