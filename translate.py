@@ -11,7 +11,7 @@ def translate_to_modern_portuguese(text, api_key):
     openai.api_key = api_key
     prompt = [{"role": "user",
                "content": f"corrija a grafia da seguinte frase do portugues antigo para o portugues atual, corrigindo "
-                          f"numerais e numeros por numeros em extenso e corrigindo a acentuação,  retorne apenas a "
+                          f"numerais e numeros por numeros em extenso, corrigindo a acentuação e abreviações,  retorne apenas a "
                           f"frase corrigida, sem adições: {text}"}]
     response = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=prompt, temperature=0.2, max_tokens=200)
     texto_traduzido = response['choices'][0]['message']['content'].strip()
