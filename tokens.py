@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import tiktoken
 
-openai.api_key = "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"
+openai.api_key = API KEY
 
 def num_tokens_from_string(string: str) -> int:
     encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
