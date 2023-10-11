@@ -41,7 +41,7 @@ cosine_sim_1_2 = cosine_similarity(tfidf_coluna1, tfidf_coluna2)
 tfidf_coluna3 = vectorizer.transform(df['transcript_whisper'])
 cosine_sim_1_3 = cosine_similarity(tfidf_coluna1, tfidf_coluna3)
 
-API_KEY = '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'
+API_KEY = 'KEY'
 
 for index in range(len(df)):
     avg_similarity = (cosine_sim_1_2[index][index] + cosine_sim_1_3[index][index]) / 2
