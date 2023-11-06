@@ -20,11 +20,11 @@ def translate_to_modern_portuguese(text, api_key):
     response = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=prompt, temperature=0.2, max_tokens=200)
     texto_traduzido = response['choices'][0]['message']['content'].strip()
     print(f"Texto traduzido: {texto_traduzido}")
-    time.sleep(21)
+    time.sleep(1)
     return texto_traduzido
 
 # Carrega o dataset
-df = pd.read_excel('metadata_train_norm7.xlsx', engine='openpyxl')
+df = pd.read_excel('metadata_train_normal.xlsx', engine='openpyxl')
 
 #pre processamento
 df['n_text'] = df['text'].str.lower()
